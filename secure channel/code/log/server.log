@@ -1,0 +1,46 @@
+SSL Handshake successfully established with ('127.0.0.1', 35106): None None
+2023-10-23 16:55:16.820663	Command from client: ls -a
+2023-10-23 16:55:16.824569	Returned value: .
+..
+READ.me.txt
+__pycache__
+certs
+client.py
+common_function.py
+log
+server.py
+
+2023-10-23 16:55:22.425818	Command from client: prova
+2023-10-23 16:55:22.688111	Error: /bin/sh: 1: prova: not found
+
+2023-10-23 16:55:26.571375	Command from client: ls
+2023-10-23 16:55:26.574141	Returned value: READ.me.txt
+__pycache__
+certs
+client.py
+common_function.py
+log
+server.py
+
+2023-10-23 16:55:33.014342	Command from client: cd client.py
+2023-10-23 16:55:33.015947	Error: /bin/sh: 1: cd: can't cd to client.py
+
+2023-10-23 16:55:39.791478	Command from client: cd certs
+2023-10-23 16:55:39.793071	Returned value: 
+2023-10-23 16:55:42.719902	Command from client: ls
+2023-10-23 16:55:42.722699	Returned value: READ.me.txt
+__pycache__
+certs
+client.py
+common_function.py
+log
+server.py
+
+2023-10-23 16:55:47.120144	Command from client: home
+2023-10-23 16:55:47.348550	Error: /bin/sh: 1: home: not found
+
+2023-10-23 16:59:18.428373	Command from client: 
+2023-10-23 16:59:18.429807	Returned value: 
+2023-10-23 16:59:18.430006	Command from client: 
+2023-10-23 16:59:18.431061	Returned value: 
+Exception: [Errno 32] Broken pipe

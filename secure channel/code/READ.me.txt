@@ -1,0 +1,14 @@
+Instructions to use client-server:
+    * It is required that the user has installed python to its OS
+    * Instruction `python3` can differ across different OS,
+      based on your instalation of python.
+      E.g: on Windows it can be `py`
+      
+    i)  Start server with command:
+        `python3 server.py`
+    ii) Start client with commands:
+        `python3 client.py <command> <hostname> <port>`
+        example:
+        `python3 client.py "ls -a" 'localhost' 7007`
+    iii) To terminate the connection:
+        In client CLI type `exit`.
