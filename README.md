@@ -1,0 +1,1 @@
+this project was divided in 3 parts: at first we needed to verify if a channel was secure, then we had a server and we had to "harden" it, then we had o introduce 2 vulnerabilities: one to get user access to the server and the second one to get root access. Then we had tofind and exploit the vulnerabilities of another group's server. 
